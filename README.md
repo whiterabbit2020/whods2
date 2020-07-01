@@ -20,13 +20,14 @@ https://covid19.who.int/
 ### inspiration
 
 Current world health and socio-ecomonic scenario drives lot of us to evaluate/correlate and finding patterns across the globe, that could be leveraged for now and in the future to handle the situation effectively. 
- 
-* number of fatalities with covid v/s without covid
-* fatalities with covid v/s top non covid. 
-* fatalities rate over time, related to covid.
-* fatalities over geographical location
-* fatalities v/s age group.
-* fatalities v/s poverty.
+
+
+* number of fatalities with covid v/s without covid - Siraj
+* fatalities with covid v/s top non covid. - Alan
+* fatalities rate over time, related to covid. - Atul
+* fatalities over geographical location - Chad/Siraj
+* fatalities v/s age group - Ganga
+* fatalities v/s poverty. Atul/Alan
 
 ### Highlevel Steps
 
