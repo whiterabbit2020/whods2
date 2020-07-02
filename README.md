@@ -17,6 +17,8 @@ https://www.who.int/data/gho/info/athena-api
 
 https://covid19.who.int/ 
 
+[reference to graphs](https://ourworldindata.org/coronavirus-data-explorer?yScale=log&zoomToSelection=true&testsMetric=true&totalFreq=true&aligned=true&perCapita=true&smoothing=0&country=ATG~ARG~AFG~Africa~ALB&pickerMetric=location&pickerSort=asc)
+
 ### inspiration
 
 Current world health and socio-ecomonic scenario drives lot of us to evaluate/correlate and finding patterns across the globe, that could be leveraged for now and in the future to handle the situation effectively. 
@@ -31,6 +33,10 @@ Current world health and socio-ecomonic scenario drives lot of us to evaluate/co
 
 ### Highlevel Steps
 
+* mongo/mysql DB
+* library/reuse code/may be OO
+* graphical represntation 
+* final presentation 
 
 
 
