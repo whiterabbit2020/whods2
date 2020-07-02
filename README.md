@@ -28,8 +28,9 @@ Current world health and socio-ecomonic scenario drives lot of us to evaluate/co
 * fatalities with covid v/s top non covid. - Alan
 * fatalities rate over time, related to covid. - Atul
 * fatalities over geographical location - Chad/Siraj
-* fatalities v/s age group - Ganga
+* fatalities v/s age group - Ganga/
 * fatalities v/s poverty. Atul/Alan
+
 
 ### Highlevel Steps
 
@@ -38,5 +39,26 @@ Current world health and socio-ecomonic scenario drives lot of us to evaluate/co
 * graphical represntation 
 * final presentation 
 
+### Development steps
 
+* Presentation - Chad
 
+* MangoDB / Flask - Siraj
+    - Load Json files into MangoDB database
+    - Create Flask app - python
+    - Data injection
+    
+  Frontend -- Alan, Atul, Ganga
+    * HTML page (bootstrap)
+    * Java script
+    * Static page + js
+
+GUI Output:
+* Project info  + description 
+* 3 graphs - interative / 3 tabs
+    - Age vs Death rate
+    - Income vs Death rate
+    - Pre existing condition vs Death rate
+     ????  vs ????
+
+* Conclution
