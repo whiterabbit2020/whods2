@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>COVID-19 | An Analysis</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <!-- Jumbotron -->
+    <div class="container text-center jumbotron">
+        <h1><strong>COVID-19</strong></h1>
+        <h3><em>An analysis of the tragic loss of human life</em></h3>
+        <br />
+        <a class="btn btn-large btn-primary" href="/refresh">Refresh Data</a>
+    </div>
+
+    <!-- Container Begins -->
+    <div class="container mt-4">
+        <!-- Mars News -->
+        <div class="row">
+            <div class="col-lg-6 col-md-4">
+                <div id="plot"></div>
+            </div>
+            <div class="col-lg-6 col-md-4">
+                <div id="plot1"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Container Ends -->
+    <script type="text/javascript">
+    data = {{ covid_data|safe }};
+    console.log(`Records retrieved from DB: ${data.length}`);
+    </script>
+    <script src="/static/plot.js"></script>
+
+</body>
+
+</html>
