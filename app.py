@@ -1,10 +1,10 @@
-from flask import Flask, render_template, redirect
+from flask import Flask, render_template, redirect, send_from_directory
 from flask_pymongo import PyMongo
 import requests
 import json
 
 app = Flask(__name__)
-
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 # Use flask_pymongo to set up mongo connection
 app.config["MONGO_URI"] = "mongodb://localhost:27017/whods"
 mongo = PyMongo(app)
@@ -26,6 +26,10 @@ def refresh():
     covid_19.delete_many({})
     covid_19.insert_many(mongo_data)
     return redirect("/", code=302)
+
+
+
+
 
 
 if __name__ == "__main__":

@@ -44,20 +44,21 @@ Current world health and socio-ecomonic scenario drives lot of us to evaluate/co
 * Presentation - Chad
 
 * MangoDB / Flask - Siraj
-    - Load Json files into MangoDB database
+    - Load Json files into MongoDB database - done 
     - Create Flask app - python
     - Data injection
     
   Frontend -- Alan, Atul, Ganga
-    * HTML page (bootstrap)
+    * HTML page (bootstrap) 
     * Java script
     * Static page + js
 
 GUI Output:
 * Project info  + description 
 * 3 graphs - interative / 3 tabs
-    - Age vs Death rate
-    - Income vs Death rate
+    - Time vs Death rate per million ( x = date, y = death rate )
+    - Time vs Number of cases per million ( x = date, y = cases per million )
+    - Time v/s stringency 
     - Pre existing condition vs Death rate
      ????  vs ????
 
