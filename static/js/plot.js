@@ -62,10 +62,10 @@ function bubbleChart(selected) {
         },
         type: 'scatter',
         xaxis: {
-            title: {text: 'GDP Per Capita'}
+            title: {'text': 'GDP Per Capita'}
         },
         yaxis: {
-            title: {text: 'Hospital Beds Per Thousand'}
+            title: {'text': 'Hospital Beds Per Thousand'}
         }
     };
     var plotData = [trace];
