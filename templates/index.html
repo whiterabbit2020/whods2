@@ -20,16 +20,14 @@
 <body>
     <!-- Jumbotron -->
     <div class="container text-center">
-        <h1><strong>COVID-19</strong></h1>
-        <h4><em>An analysis of a human tragedy</em></h4>
+        <h1 style="color: darkblue"><strong>COVID-19</strong></h1>
+        <h5 style="color:lightseagreen"><em>An analysis of a human tragedy</em></h5>
         <br />
-        <p class="font-italic">Last Updated: <span id="lastUpdated"></span></p>
-        <a class="btn btn-large btn-primary" href="/refresh">Refresh</a>
     </div>
 
     <!-- Container Begins -->
     <div class="container">
-        <hr />
+        <hr color="orange"/>
         <div class="row">
             <div class="col-lg-12">
                 <p id="locList" class="text-center font-italic font-weight-bold"></p>
@@ -64,7 +62,15 @@
                   </div>
             </div>
         </div>
-        <hr style="margin-top: 10px; margin-bottom: 10px;" />
+        <div class="row">
+            <div class="col-lg-6 text-right py-2">
+                <p class="font-italic">Last Updated: <span id="lastUpdated"></span></p>
+            </div>
+            <div class="col-lg-6 mr-auto">
+                <a class="btn btn-info" href="/refresh">Refresh</a>
+            </div>
+        </div>
+        <hr color="orange" style="margin-top: 10px; margin-bottom: 10px;" />
         <footer class="text-center text-muted" style="margin: 10px;">&copy; WhiteRabbit 2020</footer>
     </div>
     <!-- Container Ends -->
